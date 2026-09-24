@@ -1,0 +1,34 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+:root {
+  background: #080a09;
+  color: white;
+}
+
+html {
+  background: #080a09;
+}
+
+body {
+  margin: 0;
+  background: #080a09;
+  color: white;
+}
+
+.container-fit {
+  width: min(100% - 32px, 1280px);
+  margin-inline: auto;
+}
+
+@media (min-width: 640px) {
+  .container-fit {
+    width: min(100% - 48px, 1280px);
+  }
+}
+
+@media (min-width: 1024px) {
+  .container-fit {
+    width: min(100% - 64px, 1280px);
+  }
+}
