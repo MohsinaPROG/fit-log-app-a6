@@ -54,12 +54,12 @@ export default function Hero() {
           </div>
 
           {/* Arrow */}
-          <div className="absolute bottom-7 right-7 flex h-10 w-10 items-center justify-center rounded-full border border-[#ccff00] bg-[#080a09]/80">
+          {/* <div className="absolute bottom-7 right-7 flex h-10 w-10 items-center justify-center rounded-full border border-[#ccff00] bg-[#080a09]/80">
             <ArrowDown
               size={17}
               className="text-[#ccff00]"
             />
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

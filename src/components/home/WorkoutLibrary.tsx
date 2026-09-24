@@ -4,7 +4,7 @@ import { useMemo, useState } from "react";
 import { Workout, SortOption } from "@/types/fitlog";
 
 import WorkoutCard from "./WorkoutCard";
-import SortDropdown from "./SortDropdown";
+//import SortDropdown from "./SortDropDown";
 
 interface WorkoutLibraryProps {
   workouts: Workout[];
@@ -49,9 +49,9 @@ export default function WorkoutLibrary({
       {/* Heading */}
       <div className="mb-8 flex flex-col gap-5 sm:flex-row sm:items-end sm:justify-between">
         <div>
-          <p className="mb-2 text-xs font-bold uppercase tracking-[0.25em] text-[#ccff00]">
+         {/* <p className="mb-2 text-xs font-bold uppercase tracking-[0.25em] text-[#ccff00]">
             Workout Library
-          </p>
+          </p>  */}
 
           <h2 className="text-3xl font-black uppercase tracking-tight text-white sm:text-4xl">
             THE LIBRARY
@@ -63,10 +63,11 @@ export default function WorkoutLibrary({
         </div>
 
         {/* Sort Dropdown */}
-        <SortDropdown
+        {/* <SortDropdown
           value={sortBy}
           onChange={setSortBy}
         />
+      </div> */}
       </div>
 
       {/* Workout Cards */}
