@@ -62,12 +62,6 @@ export default function WorkoutLibrary({
           </p>
         </div>
 
-        {/* Sort Dropdown */}
-        {/* <SortDropdown
-          value={sortBy}
-          onChange={setSortBy}
-        />
-      </div> */}
       </div>
 
       {/* Workout Cards */}
