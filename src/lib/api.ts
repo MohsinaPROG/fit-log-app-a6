@@ -23,6 +23,37 @@ export async function getWorkouts(): Promise<Workout[]> {
 
 
 
+
+
+
+
+
+
+// import { Workout } from "@/types/fitlog";
+
+// const API_URL =
+//   "https://api.abcz.workers.dev/api/fitlog";
+
+// export async function getWorkouts(): Promise<Workout[]> {
+//   const response = await fetch(API_URL, {
+//     cache: "no-store",
+//   });
+
+//   if (!response.ok) {
+//     throw new Error("Failed to fetch workouts");
+//   }
+
+//   const data: Workout[] = await response.json();
+
+//   return data;
+// }
+
+
+
+
+
+
+
 // import { Workout } from "@/types/fitlog";
 
 // export const API_URL =

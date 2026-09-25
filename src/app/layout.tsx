@@ -35,7 +35,6 @@ export default function RootLayout({
           <Navbar />
 
           <main>{children}</main>
-
           <Footer />
         </FitLogProvider>
       </body>
