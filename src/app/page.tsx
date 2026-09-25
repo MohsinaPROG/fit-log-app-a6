@@ -8,7 +8,7 @@ export default async function HomePage() {
   return (
     <main>
       {/* Hero Section */}
-      <Hero image={workouts[0]?.image} />
+      <Hero />
 
       {/* Workout Library */}
       <WorkoutLibrary workouts={workouts} />
