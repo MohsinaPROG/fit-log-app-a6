@@ -1,7 +1,6 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { ArrowDown, ArrowRight } from "lucide-react";
 
 import bannerImg from "../../assets/banner.png";
 
@@ -52,14 +51,6 @@ export default function Hero() {
               sizes="(max-width: 1024px) 90vw, 400px"
             />
           </div>
-
-          {/* Arrow */}
-          {/* <div className="absolute bottom-7 right-7 flex h-10 w-10 items-center justify-center rounded-full border border-[#ccff00] bg-[#080a09]/80">
-            <ArrowDown
-              size={17}
-              className="text-[#ccff00]"
-            />
-          </div> */}
         </div>
       </div>
     </section>

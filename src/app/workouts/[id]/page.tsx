@@ -1,6 +1,4 @@
 
-
-
 import { notFound } from "next/navigation";
 
 import WorkoutDetails from "@/components/details/WorkoutDetails";
