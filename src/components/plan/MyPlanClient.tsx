@@ -13,7 +13,8 @@ import EmptyPlan from "./EmptyPlan";
 
 type PlanTab = "today" | "saved";
 
-const API_URL = "https://api.abcz.workers.dev/api/fitlog";
+// const API_URL = "https://api.abcz.workers.dev/api/fitlog";
+const API_URL = "https://api.api-store.workers.dev/api/fitlog";
 
 export default function MyPlanClient() {
   const { plan, saved } = useFitLog();
